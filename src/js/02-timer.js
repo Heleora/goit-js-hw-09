@@ -3,14 +3,14 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import Notiflix from 'notiflix';
 
-calendarInput = document.querySelector("#datetime-picker");
-startTimerBtn = document.querySelector("[data-start]");
-headRef = document.querySelector("head");
+const calendarInput = document.querySelector("#datetime-picker");
+const startTimerBtn = document.querySelector("[data-start]");
+const headRef = document.querySelector("head");
 
-daysRef = document.querySelector("[data-days]");
-hoursRef = document.querySelector("[data-hours]");
-minutesRef = document.querySelector("[data-minutes]");
-secondsRef = document.querySelector("[data-seconds]");
+const daysRef = document.querySelector("[data-days]");
+const hoursRef = document.querySelector("[data-hours]");
+const minutesRef = document.querySelector("[data-minutes]");
+const secondsRef = document.querySelector("[data-seconds]");
 
 
 const timerStyles = `
