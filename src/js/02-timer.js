@@ -46,6 +46,9 @@ const options = {
     time_24hr: true,
     defaultDate: new Date(),
     minuteIncrement: 1,
+    onOpen() {
+    startTimerBtn.setAttribute("disabled", true);
+    },
     onClose(selectedDates) {
       // console.log(selectedDates[0]);
       const deltaDate = selectedDates[0] - new Date();
